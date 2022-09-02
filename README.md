@@ -2,7 +2,7 @@
 
 ## [StarkNet Cairo 101](https://github.com/starknet-edu/starknet-cairo-101)
 
-**Simple tutorials to learn how to read Cairo contracts. It's a learn to earn, so each exercise completed give you tokens. As the exercises progress, the difficulty increases. **
+**Simple tutorials to learn how to read Cairo contracts. It's a learn to earn, so each exercise completed give you tokens. As the exercises progress, the difficulty increases.**
 
 ### Ex01 - General syntax
 
