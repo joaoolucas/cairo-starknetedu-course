@@ -28,4 +28,14 @@ Similar to Ex04, we need to call the function "assign_user_slot" at "Write Contr
 
 ### Ex06 - Functions visibility
 
-Similar to the previous, call "assign_user_slot" and then call "external_handler_for_internal_function" that takes "0" as input (we know that the "0" is the correct input by looking at the contract code). 
+Similar to the previous, call "assign_user_slot" and then call "external_handler_for_internal_function" that takes "0" as input (we know that the "0" is the correct input by looking at the contract code). Now go to "Read Contract" and check the correct value calling "user_values", then just put the result in "claim_points".
+
+### Ex07 - Comparing values
+
+For this exercise, we basically just need to look at the code of the contract. To call "claim_points" we need two values, "a_value" and "b_value". Checking the contract, we see that "a_value" has to bee a number different from 0, less than 75 and between 40 and 69. The "b_value" cannot be negative and must be less than 1. For example, a correct input would be 50 for "a_value" and 0 for "b_value".
+
+### Ex08 - Recursions level 1
+
+Here we're going to need to input an array at "set_user_values". Looking at the contract we find out that the array consists in a recursive function, and to call "claim_points" we need to the user_value as 10 in the slot 10. The code maps the variables recursively to set all the user_values, so at the end of the array it's start summing. In practice the values are stored in the slots every time the function is called and continuously from 0. So to make the user_value be 10 in slot 10, we will make the following input in "set_user_values": 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+
+If you want to check it, call the function "user_values" in "Read Contract". Now just call "claim_points" to finish this exercise.
