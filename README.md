@@ -1,4 +1,4 @@
-# Resolutions to [StarkNet-Edu Cairo Course](https://github.com/starknet-edu) 🌱
+# Solutions to [StarkNet-Edu Cairo Course](https://github.com/starknet-edu) 🌱
 
 ## [StarkNet Cairo 101](https://github.com/starknet-edu/starknet-cairo-101)
 
