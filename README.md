@@ -46,7 +46,7 @@ To claim the points of this task we have to give to the function the "expected_v
 
 ### Ex05 - Variable visibility
 
-Similar to Ex04, we need to call the function "assign_user_slot" at "Write Contract" and then call "copy_secret_value_to_readable_mapping". The verify the value at "Read Contract" calling the "user_values" function. Then just put the output of "user_values" in "claim_points" at "Write Contract".
+Similar to Ex04, we need to call the function "assign_user_slot" at "Write Contract" and then call "copy_secret_value_to_readable_mapping". Then verify the value at "Read Contract" calling the "user_values" function. Then just put the output of "user_values" in "claim_points" at "Write Contract".
 
 ### Ex06 - Functions visibility
 
