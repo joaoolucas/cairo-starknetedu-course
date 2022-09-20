@@ -86,4 +86,5 @@ This exercise can be solved the same way that Ex12. Not sure if this should be t
 
 ### Ex14 - Multicall
 
-working on it
+Check the contract at /contracts 
+(I will elaborate better later)
